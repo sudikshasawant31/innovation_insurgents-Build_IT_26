@@ -14,7 +14,7 @@ The platform enables communities, emergency responders, and authorities to commu
 ## Important Links
 
 * Live Deployment Link: https://phoenix-puce-seven.vercel.app/
-* Demo Video Link: 
+* Demo Video Link: https://drive.google.com/file/d/1wNtaL9XjvvguVwG0zXgtU6zhsJ86JYei/view?usp=sharing
 
 ----
 # 🚀 Problem Statement
