@@ -11,7 +11,12 @@ Instead of relying on a single communication medium, Phoenix rebuilds humanity's
 The platform enables communities, emergency responders, and authorities to communicate, coordinate, and recover—even when traditional communication systems no longer exist.
 
 ---
+## Important Links
 
+* Live Deployment Link: https://phoenix-puce-seven.vercel.app/
+* Demo Video Link: https://drive.google.com/file/d/1CF_Y2zPKLILmuMLfU_huGzbE6pEwGXuc/view?usp=sharing
+
+----
 # 🚀 Problem Statement
 
 Following humanity's first contact with extraterrestrial life, all digital communication systems—including messaging apps, phone calls, emails, and social media—became unusable.
@@ -162,7 +167,6 @@ Current integrations include:
 - Puter AI
 
 ---
----
 
 # 🛠 Tech Stack
 
@@ -194,8 +198,6 @@ Current integrations include:
 ### Authentication
 
 - Supabase Auth
-
----
 
 ---
 
