@@ -162,29 +162,6 @@ Current integrations include:
 - Puter AI
 
 ---
-
-# 🏗 System Architecture
-
-```
-                    Phoenix Platform
-
-         +-----------------------------+
-         |      Command Dashboard      |
-         +-------------+---------------+
-                       |
-        -----------------------------------------
-        |        |        |        |            |
- Survivor  Resources  Mapping   AI Engine   Broadcast
- Registry  Exchange              Intelligence
-
-                       |
-                Relay Network
-                       |
- ----------------------------------------------------
- | Bluetooth | WiFi Direct | LoRa | SMS | Satellite |
- ----------------------------------------------------
-```
-
 ---
 
 # 🛠 Tech Stack
@@ -219,25 +196,6 @@ Current integrations include:
 - Supabase Auth
 
 ---
-
-# 📂 Project Structure
-
-```
-Phoenix/
-│
-├── app/
-├── components/
-├── hooks/
-├── lib/
-├── services/
-├── public/
-├── styles/
-├── types/
-├── utils/
-├── supabase/
-├── package.json
-└── README.md
-```
 
 ---
 
