@@ -1,0 +1,26 @@
+{
+  "pages": {
+    "/_app": []
+  },
+  "devFiles": [],
+  "polyfillFiles": [
+    "static/chunks/0_-__next_dist_build_polyfills_polyfill-nomodule.js"
+  ],
+  "lowPriorityFiles": [
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js",
+    "static/development/_clientMiddlewareManifest.js"
+  ],
+  "rootMainFiles": [
+    "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_03h9bmd._.js",
+    "static/chunks/0_-__next_dist_compiled_next-devtools_index_0bb4zbq.js",
+    "static/chunks/0_-__next_dist_compiled_react-dom_09cuo14._.js",
+    "static/chunks/0_-__next_dist_compiled_react-server-dom-turbopack_06g6hjp._.js",
+    "static/chunks/0_-__next_dist_compiled_0gs~_~f._.js",
+    "static/chunks/0_-__next_dist_client_0v_7vth._.js",
+    "static/chunks/0_-__next_dist_0s9zebl._.js",
+    "static/chunks/0mpw_@swc_helpers_cjs_0795gi6._.js",
+    "static/chunks/phoenix-communication-platform-updated_phoenix_project_0rqeker._.js",
+    "static/chunks/turbopack-phoenix-communication-platform-updated_phoenix_project_085vear._.js"
+  ]
+}
