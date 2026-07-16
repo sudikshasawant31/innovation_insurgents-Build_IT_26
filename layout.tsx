@@ -1,51 +1,5 @@
-import { Analytics } from '@vercel/analytics/next'
-import type { Metadata, Viewport } from 'next'
-import './globals.css'
+import { PhoenixHeader } from '@/components/phoenix-header'
 
-export const metadata: Metadata = {
-  title: 'PHOENIX - Civilization Operating System',
-  description: 'Emergency coordination and survival protocol network',
-  generator: 'v0.app',
-  icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
-  },
-}
-
-export const viewport: Viewport = {
-  colorScheme: 'dark',
-  themeColor: [
-    { media: '(prefers-color-scheme: dark)', color: '#0a0f2c' },
-  ],
-}
-
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode
-}>) {
-  return (
-    <html lang="en" className="dark bg-background">
-      <head>
-        <script src="https://js.puter.com/v2/" async />
-      </head>
-      <body className="antialiased dark bg-background text-foreground">
-        {children}
-        {process.env.NODE_ENV === 'production' && <Analytics />}
-      </body>
-    </html>
-  )
+export default function ProtectedLayout({ children }: { children: React.ReactNode }) {
+  return <div className="min-h-screen overflow-x-hidden bg-background"><PhoenixHeader /><main className="mx-auto max-w-[1480px] px-4 py-6 lg:px-8">{children}</main></div>
 }
